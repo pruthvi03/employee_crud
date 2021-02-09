@@ -1,0 +1,11 @@
+<%-include('./partials/header')-%>
+    <div class="container mt-5 w-50">
+        <h2 class="mb-4">Add new Employee</h2>
+        <form action="/employee/new" method="POST">
+            <input type="text" name="name" class="form-control mb-2" placeholder="Name">
+            <input type="text" name="designation" class="form-control mb-2" placeholder="Designation">
+            <input type="text" name="salary" class="form-control mb-2" placeholder="Salary">
+            <button type="submit" class="btn btn-primary form-control mt-4">Add</button>
+        </form>
+    </div>
+<%-include('./partials/footer')-%>
